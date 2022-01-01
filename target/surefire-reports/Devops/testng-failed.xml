@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="methods" name="Failed suite [Devops]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="4" parallel="methods" name="Validating Login Page- BDD2(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="parallel.ParallelRunTestNG2$PositiveTest">
+        <methods>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="launchBrowser2"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- parallel.ParallelRunTestNG2$PositiveTest -->
+    </classes>
+  </test> <!-- Validating Login Page- BDD2(failed) -->
+</suite> <!-- Failed suite [Devops] -->

@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: parallel.ParallelRun
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 27.116 s <<< FAILURE! - in parallel.ParallelRun
+runScenario(parallel.ParallelRun$PositiveTest)  Time elapsed: 11.26 s  <<< FAILURE!
+org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: 
+(1142, 822) is out of bounds of viewport width (1280) and height (595)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G3E20IF', ip: '192.168.178.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 91.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210823123856, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 19628, moz:profile: C:\Users\sharo\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ef85bb26-0685-4f0f-ac28-3a2f3e5c4ade
+

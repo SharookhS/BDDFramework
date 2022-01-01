@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="Devops"  parallel="tests" thread-count="10">
+<!-- <suite  name="Devops"  parallel="methods" thread-count="10"> -->
+
+<!-- https://www.lambdatest.com/support/docs/running-cucumber-scripts-with-testng-and-selenium/
+ -->
+ 
+    <!-- <test name="Validating Login Page- BDD">
+            <classes>
+                <class name="parallel.ParallelRunTestNG"/>
+            </classes>
+        </test> -->
+        <test name="Validating Login Page- BDD2">
+        <parameter name="browser" value="edge" />
+            <classes>
+                <class name="parallel.ParallelRunTestNG2"/>
+            </classes>
+        </test>
+</suite>
