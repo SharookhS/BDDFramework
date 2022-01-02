@@ -1,8 +1,10 @@
 pipeline {
     agent any
     stages {
-        stage('Git Checkout') {
-
+        stage('Git Checkout') {            
+            steps {
+                echo "------GitHub-------"                
+            }
         }
     }
 }
