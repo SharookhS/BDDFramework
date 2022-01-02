@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('Git Checkout') {            
             steps {
-                echo "------GitHub-------"  
-                sh 'printenv'
+                echo "------GitHub-------"                  
             }
         }
     }
