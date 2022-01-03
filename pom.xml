@@ -122,17 +122,17 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>${maven.surefire.version}</version>
 				<configuration>
-					<includes>
+					<!-- <includes>
 						<include>**/ParallelRun.java</include>												
-					</includes>
+					</includes> -->
 					
 					<!-- <includes>
 						<include>**/testng.xml</include>
 					</includes> -->
 					
-					<!-- <suiteXmlFiles>
+					<suiteXmlFiles>
 						<suiteXmlFile>src/test/java/parallel/testng.xml</suiteXmlFile>
-					</suiteXmlFiles> -->
+					</suiteXmlFiles>
 					
 					<parallel>methods</parallel>
 					<!-- <parallel>classes</parallel> -->
